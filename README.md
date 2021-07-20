@@ -20,15 +20,17 @@ In this project, I have created an user interface for a TO-DO App.
 
 ## Build With
 
-- JavaScript
+- JavaScript (ES6)
 - HTML
 - CSS
 
 ## Tools & Technologies
 
 - JSON
-- React
+- React.js
 - Axios
+- Node.js
+- npm
 
 ## Highlights
 
@@ -38,7 +40,7 @@ I have choosed React library so that user can see on UI what he does without rel
 
 With the help of Axios i was able to build the communication between backend and frontent. (see: [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete))
 
-In the case of an error i have used axios.catch() function to catch the error and inform the user.
+In the case of an error i have used "axios.catch()" function to catch the error and inform the user.
 
 
 ## Usage
@@ -46,13 +48,14 @@ In the case of an error i have used axios.catch() function to catch the error an
 > 1) Clone the repository to your local machine
 
 ```sh
-$ git clone https://github.com/cagilceren/React-Simple-Simple-TO-DO-List-Front-End
+$ git clone https://github.com/cagilceren/React-Simple-Simple-TO-DO-List-Front-End.git
 ```
 
 > 2) Go to the repository folder and run the project 
 
 ```sh
 $ cd ./React-Simple-Simple-TO-DO-List-Front-End
+$ npm install
 $ npm start
 
 ```
