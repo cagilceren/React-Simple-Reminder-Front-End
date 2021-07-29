@@ -14,9 +14,9 @@
 
 <br>
 
-This project is created as a part of self-learning. 
+This project has been created as a part of self-learning. 
 
-In this project, I have created an user interface for a TO-DO App.
+In this project, I have created a user interface for a TO-DO App.
 
 ## Build With
 
@@ -34,13 +34,13 @@ In this project, I have created an user interface for a TO-DO App.
 
 ## Highlights
 
-In this project i have used React to create UI for my REST API Reminder Projects (see: [PHP-Simple-TO-DO-List-REST-API](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API) and [Java-Simple-TO-DO-List-REST-API](https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API)).
+In this project I have used React to create UI for my REST API Reminder Projects (see: [PHP-Simple-TO-DO-List-REST-API](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API) and [Java-Simple-TO-DO-List-REST-API](https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API)).
 
-I have choosed React library so that user can see on UI what he does without reloading the webpage or the app.
+I have chosen React library so that user can see on UI what he does without reloading the webpage or the app.
 
-With the help of Axios i was able to build the communication between backend and frontent. (see: [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete))
+With the help of Axios I was able to build the communication between backend and frontend. (see: [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete))
 
-In the case of an error i have used "axios.catch()" function to catch the error and inform the user.
+In the case of an error I have used "axios.catch()" function to catch the error and inform the user.
 
 
 ## Usage

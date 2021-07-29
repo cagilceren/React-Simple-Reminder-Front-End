@@ -97,7 +97,7 @@ class App extends React.Component {
       <div className="Reminder">
         <div>
           <input
-            onChange={this.onChangeTitle}
+            onChange={(event) => this.onChangeTitle(event)}
             value={this.state.title}
             type="text"
             id="title"
@@ -125,7 +125,7 @@ class App extends React.Component {
           )}
 
           {this.state.updateId != null && (
-            <button onClick={this.onClickCancel} id="cancel" name="cancel">
+            <button onClick={() => this.onClickCancel()} id="cancel" name="cancel">
               Cancel
             </button>
           )}
